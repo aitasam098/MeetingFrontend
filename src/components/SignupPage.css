@@ -124,7 +124,7 @@ body, html {
 .signup-btn {
   width: 100%;
   padding: 0.75rem;
-  background-color: #00b894;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 6px;
@@ -134,13 +134,13 @@ body, html {
 }
 
 .signup-btn:hover {
-  background-color: #019875;
+  background-color: #007bff;
 }
 
 .success-message {
   text-align: center;
   margin-top: 1rem;
-  color: #00b894;
+  color: #007bff;
   font-weight: 600;
   font-size: 1rem;
 }

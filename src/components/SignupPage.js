@@ -29,6 +29,7 @@ function SignupPage() {
     setSuccessMessage('✅ Signup successful!');
     setFormData(initialFormState);
     console.log('Form submitted:', formData);
+    navigate('/verify-email');
   };
 
   const handleGoogleSignup = () => {
@@ -37,7 +38,7 @@ function SignupPage() {
   };
 
   const handleRedirectToLogin = () => {
-    navigate('/login'); // ✅ Redirect to login page
+    navigate('/'); // ✅ Redirect to login page
   };
 
   useEffect(() => {
@@ -66,6 +67,8 @@ function SignupPage() {
         <div className="divider">
           <span>or sign up with</span>
         </div>
+
+
 
         <form onSubmit={handleSubmit} className="signup-form">
           <div className="form-group">

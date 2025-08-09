@@ -38,7 +38,7 @@ function LoginPage() {
   };
 
   const handleRedirectToSignup = () => {
-    navigate('/');
+    navigate('/signup');
   };
 
   const handleRedirectToForgotPassword = () => {
